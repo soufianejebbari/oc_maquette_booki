@@ -3,10 +3,16 @@
 }
 #navbar {
     display: flex;
+    flex-direction: row;
+}
+
+.logo-booki {
+    padding: 26px;
+    width: 60%;
 }
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 30px;
     padding: 0;
     display: inline;
     flex:auto;
