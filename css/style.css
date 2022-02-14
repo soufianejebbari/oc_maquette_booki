@@ -10,18 +10,18 @@
     padding: 26px;
     width: 60%;
 }
-ul {
+.menu {
     list-style-type: none;
     margin: 30px;
     padding: 0;
     display: inline;
     flex:auto;
 }
-li {
+.menu li {
     display: inline;
     float: right;
 }
-a {
+#navbar a {
     color: black;
     display: block;
     padding: 15px;
@@ -31,11 +31,36 @@ a {
 a:hover {
     color: #0065FC;
 }
+
 body {
     font-family: 'Raleway', sans-serif;
     max-width: 1920px;
     margin: 0 auto;
  }
+
+.filtrer-placeholder {
+    display: inline-flex;
+    margin-left: 5%;
+}
+
+.fa-solid {
+    display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+}
+
+.filtres-selection {
+    display: flex;
+}
+
+.filtres-selection ul {
+    display: inline-flex;
+}
+
+.filtres-selection ul li {
+    border-style: groove;
+}
+
 footer {
     background-color: grey;
 }
