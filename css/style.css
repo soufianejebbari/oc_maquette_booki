@@ -22,7 +22,7 @@ header {
 }
 
 header #logo {
-    padding: 25px 0px;
+    padding: 25px 0;
 }
 
 header #logo img {
@@ -38,7 +38,7 @@ header nav ul {
 header nav ul li {
     padding: 50px 25px;
     border-top: 4px solid transparent;
-    margin: 0px 20px 0px 20px;
+    margin: 0 20px 0 20px;
 }
 
 header nav ul li:hover {
@@ -55,10 +55,8 @@ header nav ul li:hover a {
 }
 
 
-
-
 h1 {
-    margin-bottom: 0px
+    margin-bottom: 0
 }
 
 .subtitle {
@@ -67,7 +65,8 @@ h1 {
     padding-top: 10px
 }
 
-.search-box {
+.searchbar
+{
     display: inline-block;
     border: 1px solid #F2F2F2;
     border-radius: 15px;
@@ -75,16 +74,16 @@ h1 {
 
 }
 
-.search-box .fa-map-marker-alt {
+.searchbar .fa-map-marker-alt {
     display: inline-block;
     padding: 14px;
     height: 28px;
     font-size: 25px;
     background-color: #F2F2F2;
-    border-radius: 15px 0px 0px 15px;
+    border-radius: 15px 0 0px 15px;
 }
 
-.search-box input {
+.searchbar input {
     outline: none;
     height: 52px;
     margin-left: -5px;
@@ -92,7 +91,7 @@ h1 {
     padding: 10px;
 }
 
-.search-box button {
+.searchbar button {
     background-color: #0065FC;
     color: white;
     height: 52px;
@@ -102,7 +101,7 @@ h1 {
     cursor: pointer;
 }
 
-.search-box button .fa-search {
+.searchbar button .fa-search {
     display: none;
 }
 
@@ -131,8 +130,7 @@ h1 {
     background-color: #DEEBFF;
     height: 50px;
     width: 50px;
-    display: inline-block;
-    border-radius: 100%;
+   border-radius: 100%;
     color: #0065FC;
     display: flex;
     align-items: center;
@@ -341,7 +339,7 @@ h1 {
 footer {
     background-color: #F2F2F2;
     margin: 0px -50px;
-    padding: 50px;
+    padding: 0px 50px;
     display: flex;
 }
 
