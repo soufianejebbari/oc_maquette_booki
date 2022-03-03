@@ -1,10 +1,10 @@
-@media all and (min-width: 768px) and (max-width: 992px) {
+@media all and (max-width: 992px) {
     #filter {
         flex-wrap: wrap;
     }
 
     #hebergement {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     #hebergement .marseille,
@@ -20,6 +20,7 @@
 
     #activite .activite-list .column {
         width: 48%;
+        padding-bottom: 30px;
     }
 
     footer {
