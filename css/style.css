@@ -1,7 +1,7 @@
 body {
     font-family: Raleway;
     margin: 0;
-    padding: 0px 50px;
+    /*padding: 0px 50px;*/
     font-size: 18px;
 }
 
@@ -22,7 +22,8 @@ header {
 }
 
 header #logo {
-    padding: 25px 0;
+    padding: 50px 50px;
+
 }
 
 header #logo img {
@@ -54,7 +55,9 @@ header nav ul li:hover a {
     color: #0065FC;
 }
 
-
+main {
+    padding: 0px 50px;
+}
 h1 {
     margin-bottom: 0
 }
@@ -339,16 +342,16 @@ h1 {
 footer {
     background-color: #F2F2F2;
     margin: 0px -50px;
-    padding: 0px 50px;
+    /*padding: 25px 50px;*/
     display: flex;
 }
 
 footer .column {
-    width: 30%;
+    padding: 0px 50px;
+    width: 23%;
 }
 
 footer .column ul {
-    padding: 0px;
     list-style-type: none;
 }
 
@@ -356,4 +359,8 @@ footer .column ul li a {
     color: black;
     text-decoration: none;
     line-height: 35px;
+}
+
+footer h2{
+    padding: 0px 40px;
 }
