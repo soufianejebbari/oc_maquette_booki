@@ -27,7 +27,7 @@ header #logo {
 }
 
 header #logo img {
-    width: 80px;
+    width: 30%;
 }
 
 header nav ul {
@@ -80,7 +80,7 @@ h1 {
 .searchbar .fa-map-marker-alt {
     display: inline-block;
     padding: 14px;
-    height: 28px;
+    height: 33px;
     font-size: 25px;
     background-color: #F2F2F2;
     border-radius: 15px 0 0px 15px;
@@ -97,7 +97,7 @@ h1 {
 .searchbar button {
     background-color: #0065FC;
     color: white;
-    height: 52px;
+    height: 61px;
     border: none;
     border-radius: 0px 15px 15px 0px;
     padding: 15px;
@@ -107,10 +107,6 @@ h1 {
 .searchbar button .fa-search {
     display: none;
 }
-
-
-
-
 
 #filter {
     display: flex;
@@ -132,7 +128,7 @@ h1 {
 #filter .filter-box i {
     background-color: #DEEBFF;
     height: 50px;
-    width: 50px;
+    width: 45px;
    border-radius: 100%;
     color: #0065FC;
     display: flex;
@@ -342,7 +338,7 @@ h1 {
 footer {
     background-color: #F2F2F2;
     margin: 0px -50px;
-    /*padding: 25px 50px;*/
+    padding: 25px 50px;
     display: flex;
 }
 
