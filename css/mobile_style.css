@@ -14,12 +14,13 @@
 
     header nav ul li {
         padding: 10px 72px;
-        border-bottom: 2px solid #F2F2F2;
+        border-bottom: 3px solid #F2F2F2;
         margin: 0px 0px 0 -50px;
         border-top: none;
     }
 
-    header nav ul li:hover {
+    header nav ul li.active {
+        color: #0065FC;
         border-color: #0065FC;
     }
 
@@ -32,7 +33,9 @@
     }
 
     main {
-        padding: 20px 30px 0px 55px;
+        padding-top: 20px;
+        padding-left: 24px;
+        padding-right: 24px;
     }
 
     h1 {
@@ -65,10 +68,15 @@
         align-items: flex-start;
     }
 
-    #filter .filter-box i .fas fa-child {
-        position: relative;
-        left: 160px;
-        bottom: 55px;
+
+
+    #hebergement section .container {
+        background-color: unset;
+    }
+
+    #hebergement .populaire .container {
+        background-color: #F2F2F2;
+
     }
 
 

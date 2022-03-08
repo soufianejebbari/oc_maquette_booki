@@ -14,7 +14,6 @@ h2 {
 }
 
 
-
 header {
     display: flex;
     justify-content: space-between;
@@ -42,7 +41,7 @@ header nav ul li {
     margin: 0 20px 0 20px;
 }
 
-header nav ul li:hover {
+header nav ul li.active {
     border-color: #0065FC;
 }
 
@@ -51,13 +50,14 @@ header nav ul li a {
     text-decoration: none;
 }
 
-header nav ul li:hover a {
+header nav ul li.active a {
     color: #0065FC;
 }
 
 main {
     padding: 0px 50px;
 }
+
 h1 {
     margin-bottom: 0
 }
@@ -68,8 +68,7 @@ h1 {
     padding-top: 10px
 }
 
-.searchbar
-{
+.searchbar {
     display: inline-block;
     border: 1px solid #F2F2F2;
     border-radius: 15px;
@@ -114,13 +113,21 @@ h1 {
     padding-top: 20px;
 }
 
+#filter .filter-wrapper {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
 #filter .filter-box {
-    margin: 0px 10px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    padding-right: 8px;
     border-radius: 30px;
     border: 2px solid #F2F2F2;
     display: flex;
     align-items: center;
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 16px;
     cursor: pointer;
     transition: background-color 1s;
 }
@@ -129,11 +136,12 @@ h1 {
     background-color: #DEEBFF;
     height: 50px;
     width: 45px;
-   border-radius: 100%;
+    border-radius: 100%;
     color: #0065FC;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 18px;
 }
 
 #filter .filter-box:hover {
@@ -144,10 +152,6 @@ h1 {
 #filter .filter-box .text {
     padding: 0px 10px;
 }
-
-
-
-
 
 .info {
     display: flex;
@@ -238,10 +242,6 @@ h1 {
 }
 
 
-
-
-
-
 #hebergement .marseille {
     width: 60%;
 }
@@ -288,9 +288,6 @@ h1 {
 }
 
 
-
-
-
 #activite {
     padding-top: 50px;
     margin-bottom: 60px;
@@ -333,8 +330,6 @@ h1 {
 }
 
 
-
-
 footer {
     background-color: #F2F2F2;
     margin: 0px -50px;
@@ -357,6 +352,6 @@ footer .column ul li a {
     line-height: 35px;
 }
 
-footer h2{
+footer h2 {
     padding: 0px 40px;
 }
