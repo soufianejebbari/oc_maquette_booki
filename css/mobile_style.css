@@ -43,19 +43,29 @@
     }
 
     .subtitle {
-        font-size: 15px;
+        font-weight: 600;
+        font-size: 18px;
+        padding-top: unset;
     }
 
     .searchbar {
-        width: 100%;
+        width: unset;
     }
 
     .searchbar input {
-        margin-left: 25px;
+        margin-right: 50px;
+        margin-left: unset;
+        height: unset;
     }
 
     .searchbar button .fa-search {
         display: block;
+
+    }
+
+
+    .searchbar button {
+        border-radius: 15px 15px;
     }
 
     .searchbar button span {
@@ -67,7 +77,6 @@
         flex-direction: column;
         align-items: flex-start;
     }
-
 
 
     #hebergement section .container {
@@ -86,6 +95,12 @@
 
     #hebergement .marseille .hebergement-list a {
         width: 100%;
+        box-shadow: 0px 0px 10px 0px #e0e0e0;
+        border-radius: 25px;
+    }
+
+    #activite {
+        padding-top: unset;
     }
 
     #activite .activite-list .column {

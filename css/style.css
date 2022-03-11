@@ -3,6 +3,7 @@ body {
     margin: 0;
     /*padding: 0px 50px;*/
     font-size: 18px;
+
 }
 
 h1 {
@@ -11,6 +12,10 @@ h1 {
 
 h2 {
     font-size: 120%;
+}
+
+h3 {
+    font-size: 110%;
 }
 
 
@@ -237,9 +242,7 @@ h1 {
     margin: 6px;
 }
 
-.hebergement-list a article .article-content .price.bold {
-    font-weight: bold;
-}
+
 
 
 #hebergement .marseille {
@@ -247,8 +250,8 @@ h1 {
 }
 
 #hebergement .marseille .subtitle {
-    font-weight: bold;
-    font-size: 120%;
+
+
 }
 
 
@@ -332,14 +335,12 @@ h1 {
 
 footer {
     background-color: #F2F2F2;
-    margin: 0px -50px;
-    padding: 25px 50px;
     display: flex;
+    padding: 20px;
 }
 
 footer .column {
-    padding: 0px 50px;
-    width: 23%;
+    width: 30%;
 }
 
 footer .column ul {
