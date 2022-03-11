@@ -43,10 +43,11 @@
     }
 
     .subtitle {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .searchbar {
+        display: flex;
         width: unset;
     }
 
@@ -54,6 +55,7 @@
         margin-right: 50px;
         margin-left: unset;
         height: unset;
+        flex-grow: 1;
     }
 
     .searchbar button .fa-search {
