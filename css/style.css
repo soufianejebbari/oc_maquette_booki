@@ -1,7 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
-    /*padding: 0px 50px;*/
     font-size: 18px;
 
 }
@@ -60,7 +59,7 @@ header nav ul li.active a {
 }
 
 main {
-    padding: 0px 50px;
+    padding: 0 50px;
 }
 
 h1 {
@@ -87,7 +86,7 @@ h1 {
     height: 33px;
     font-size: 25px;
     background-color: #F2F2F2;
-    border-radius: 15px 0 0px 15px;
+    border-radius: 15px 0 0 15px;
 }
 
 .searchbar input {
@@ -103,7 +102,7 @@ h1 {
     color: white;
     height: 61px;
     border: none;
-    border-radius: 0px 15px 15px 0px;
+    border-radius: 0 15px 15px 0;
     padding: 15px;
     cursor: pointer;
 }
@@ -155,7 +154,7 @@ h1 {
 }
 
 #filter .filter-box .text {
-    padding: 0px 10px;
+    padding: 0 10px;
 }
 
 .info {
@@ -181,7 +180,7 @@ h1 {
 }
 
 #hebergement section h2 {
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 #hebergement section .container {
@@ -210,7 +209,7 @@ h1 {
 }
 
 .hebergement-list a article:hover {
-    box-shadow: 5px 5px 5px 0px #E2E2E2;
+    box-shadow: 5px 5px 5px 0 #E2E2E2;
 }
 
 .hebergement-list a article .fa-star.blue {
@@ -224,7 +223,7 @@ h1 {
 .hebergement-list a article img {
     width: 100%;
     height: 200px;
-    border-radius: 25px 25px 0px 0px;
+    border-radius: 25px 25px 0 0;
     object-fit: cover;
 }
 
@@ -234,7 +233,7 @@ h1 {
 }
 
 .hebergement-list a article .article-content {
-    padding: 10px 10px 0px 10px;
+    padding: 10px 10px 0 10px;
 }
 
 .hebergement-list a article .article-content h3,
@@ -280,7 +279,7 @@ h1 {
 }
 
 #hebergement .populaire .hebergement-list a article img {
-    border-radius: 25px 0px 0px 25px;
+    border-radius: 25px 0 0 25px;
     width: 35%;
 }
 
@@ -314,18 +313,18 @@ h1 {
     width: 100%;
     height: calc(100% - 67px);
     object-fit: cover;
-    border-radius: 25px 25px 0px 0px;
+    border-radius: 25px 25px 0 0;
 }
 
 .activite-list .column article {
     height: 100%;
-    box-shadow: 0px 0px 10px 0px #E0E0E0;
+    box-shadow: 0 0 10px 0 #E0E0E0;
     border-radius: 25px;
 }
 
 .activite-list .column article h3 {
     padding: 10px;
-    margin: 0px;
+    margin: 0;
 }
 
 .activite-list .column.double article {
@@ -354,5 +353,5 @@ footer .column ul li a {
 }
 
 footer h2 {
-    padding: 0px 40px;
+    padding: 0 40px;
 }
