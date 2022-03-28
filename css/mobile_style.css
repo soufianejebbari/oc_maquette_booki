@@ -1,0 +1,125 @@
+@media all and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header #logo {
+        padding: 50px 50px 20px 150px;
+    }
+
+    header #logo img {
+        width: 60%;
+    }
+
+    header nav {
+        width: 100%;
+    }
+
+    header nav ul li {
+        padding: 10px 72px;
+        border-bottom: 3px solid #F2F2F2;
+        margin: 0 0 0 -50px;
+        border-top: none;
+        width: 50%
+
+    }
+
+    header nav ul li.active {
+        color: #0065FC;
+        border-color: #0065FC;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    body header li {
+        font-size: 18px;
+    }
+
+    main {
+        padding-top: 20px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .searchbar {
+        width:100%
+    }
+
+    .searchbar input {
+        margin-right: 50px;
+        margin-left: unset;
+        height: unset;
+        flex-grow: 1;
+    }
+
+    .searchbar button .fa-search {
+        display: block;
+
+    }
+
+
+    .searchbar button {
+        border-radius: 15px 15px;
+        width:15%;
+    }
+
+    .searchbar button span {
+        display: none;
+    }
+
+    #filter {
+        flex: unset;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+    #hebergement section .container {
+        background-color: unset;
+    }
+
+    #hebergement .populaire .container {
+        background-color: #F2F2F2;
+
+    }
+
+
+    #hebergement .marseille .hebergement-list {
+        flex-direction: column;
+    }
+
+    #hebergement .marseille .hebergement-list a {
+        width: 100%;
+        box-shadow: 0 0 10px 0 #e0e0e0;
+        border-radius: 25px;
+    }
+
+    #activite {
+        padding-top: unset;
+    }
+
+    #activite .activite-list .column {
+        width: 100%;
+    }
+
+    .activite-list .column article,
+    .activite-list .column.double article {
+        height: 250px;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}

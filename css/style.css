@@ -1,0 +1,364 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+
+
+}
+
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 120%;
+}
+
+h3 {
+    font-size: 110%;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+}
+
+header #logo {
+    padding: 50px 50px;
+
+}
+
+header #logo img {
+    width: 30%;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+header nav ul li {
+    padding: 50px 25px;
+    border-top: 4px solid transparent;
+    margin: 0 20px 0 20px;
+}
+
+header nav ul li.active {
+    border-color: #0065FC;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+header nav ul li.active a {
+    color: #0065FC;
+}
+
+main {
+    padding: 0 50px;
+}
+
+h1 {
+    margin-bottom: 0
+}
+
+.subtitle {
+    display: block;
+    margin-bottom: 20px;
+    padding-top: 10px
+}
+
+.searchbar {
+    display: inline-block;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px;
+    width: auto;
+
+}
+
+.searchbar .fa-map-marker-alt {
+    display: inline-block;
+    padding: 14px;
+    height: 33px;
+    font-size: 25px;
+    background-color: #F2F2F2;
+    border-radius: 15px 0 0 15px;
+}
+
+.searchbar form {
+    margin-bottom: 0;
+    display: flex;
+}
+
+.searchbar input {
+    outline: none;
+    margin-left: -5px;
+    border: none;
+    padding: 10px;
+    flex-grow: 1;
+    font-weight: bold;
+}
+
+.devise {
+    font-weight: 600;
+}
+.searchbar button {
+    background-color: #0065FC;
+    color: white;
+    height: 61px;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.searchbar button .fa-search {
+    display: none;
+}
+
+#filter {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#filter h2 {
+    margin-right: 30px;
+}
+
+#filter .filter-wrapper {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+#filter .filter-box {
+    margin-right: 8px;
+    margin-bottom: 10px;
+    padding-right: 8px;
+    border-radius: 30px;
+    border: 2px solid #F2F2F2;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+#filter .filter-box i {
+    background-color: #DEEBFF;
+    height: 50px;
+    width: 45px;
+    border-radius: 100%;
+    color: #0065FC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+#filter .filter-box:hover {
+    transition: background-color 1s;
+    background-color: #DEEBFF;
+}
+
+#filter .filter-box .text {
+    padding: 0 10px;
+}
+
+.info {
+    display: flex;
+}
+
+.info .fas.fa-info {
+    color: #0065FC;
+    border: 1px solid #F2F2F2;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#hebergement {
+    display: flex;
+    justify-content: space-between;
+}
+
+#hebergement section h2 {
+    margin-top: 0;
+}
+
+#hebergement section .container {
+    background-color: #F2F2F2;
+    padding: 20px 20px;
+    border-radius: 20px;
+    box-sizing: content-box;
+}
+
+.hebergement-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hebergement-list a {
+    width: 30%;
+    margin-bottom: 50px;
+}
+
+.hebergement-list a article {
+    background-color: white;
+    padding: 6px;
+    border-radius: 25px;
+    height: 100%;
+}
+
+
+.hebergement-list a article:hover {
+    box-shadow: 5px 5px 5px 0 #E2E2E2;
+}
+
+.hebergement-list a article .fa-star.blue {
+    color: #0065FC;
+}
+
+.hebergement-list a article .fa-star.grey {
+    color: #F2F2F2;
+}
+
+.hebergement-list a article img {
+    width: 100%;
+    height: 100px;
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+}
+
+.hebergement-list a {
+    color: black;
+    text-decoration: none;
+}
+
+#hebergement .marseille {
+    width: 60%;
+}
+
+#hebergement .marseille .subtitle {
+    font-weight: bold;
+}
+
+
+#hebergement .populaire .chart-icone {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#hebergement .populaire {
+    width: 35%;
+    position: relative;
+}
+
+#hebergement .populaire .hebergement-list {
+    flex-direction: column;
+}
+
+#hebergement .populaire .hebergement-list a {
+    width: 100%;
+}
+
+#hebergement .populaire .hebergement-list a article {
+    display: flex;
+    flex-direction: row;
+}
+
+#hebergement .populaire .hebergement-list a article img {
+    border-radius: 10px 10px;
+    width: 30%;
+    height: 130px;
+}
+
+#hebergement .populaire .hebergement-list a article .article-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 5px 12px;
+}
+
+
+#activite {
+    padding-top: 50px;
+    margin-bottom: 60px;
+}
+
+.activite-list {
+    display: flex;
+    justify-content: space-between;
+    height: 60%;
+    padding-top: 10px;
+}
+
+.activite-list .column {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 25px;
+}
+
+.activite-list .column article img {
+    width: 100%;
+    height: calc(100% - 67px);
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+}
+
+.activite-list .column article:hover {
+    box-shadow: 5px 5px 5px 0 #E2E2E2;
+}
+.activite-list .column article {
+    height: 100%;
+    box-shadow: 0 0 10px 0 #E0E0E0;
+    border-radius: 25px;
+}
+
+.activite-list .column article h3 {
+    padding: 10px;
+    margin: 5px;
+}
+
+.activite-list .column.double article {
+    height: 48%;
+}
+
+
+footer {
+    background-color: #F2F2F2;
+    display: flex;
+    padding: 20px;
+}
+
+footer .column {
+    width: 30%;
+}
+
+footer .column ul {
+    list-style-type: none;
+}
+
+footer .column ul li a {
+    color: black;
+    text-decoration: none;
+    line-height: 35px;
+}
+
+footer h2 {
+    padding: 0 40px;
+}
