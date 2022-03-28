@@ -100,8 +100,7 @@ h1 {
     border: none;
     padding: 10px;
     flex-grow: 1;
-    font-weight: 600;
-    !important;color:  black;
+    font-weight: bold;
 }
 
 .devise {
@@ -252,8 +251,7 @@ h1 {
 }
 
 #hebergement .marseille .subtitle {
-
-
+    font-weight: bold;
 }
 
 
@@ -303,7 +301,8 @@ h1 {
 .activite-list {
     display: flex;
     justify-content: space-between;
-    height: 600px;
+    height: 60%;
+    padding-top: 10px;
 }
 
 .activite-list .column {
@@ -329,7 +328,7 @@ h1 {
 
 .activite-list .column article h3 {
     padding: 10px;
-    margin: 0;
+    margin: 5px;
 }
 
 .activite-list .column.double article {
