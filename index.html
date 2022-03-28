@@ -1,6 +1,6 @@
 <html lang="fr">
 <head>
-    <title>booki</title>
+    <title>Booki</title>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -8,11 +8,8 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/tablette_style.css">
@@ -32,16 +29,20 @@
             </ul>
         </nav>
     </header>
+
+
     <main>
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <span class="subtitle">En plein centre ville ou en pleine nature</span>
         <div class="searchbar">
-            <i class="fas fa-map-marker-alt"></i>
-            <input type="text" placeholder="Marseille, France">
-            <button>
-                <span>Rechercher</span>
-                <i class="fas fa-search"></i>
-            </button>
+            <form action="/">
+                <i class="fas fa-map-marker-alt"></i>
+                <input type="text" placeholder="Marseille, France">
+                <button type="submit">
+                    <span>Rechercher</span>
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
         </div>
         <section id="filter">
             <h2>Filtres</h2>
@@ -66,6 +67,8 @@
 
         </section>
         <p class="info"><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+
+
         <div id="hebergement">
             <section class="marseille">
                 <div class="container">
@@ -108,7 +111,7 @@
                                 <img src="images/reisetopia-B8WIgxA_PFU-unsplash.jpg">
                                 <div class="article-content">
                                     <h3>Hôtel les mouettes</h3>
-                                    <p>Nuit à partir de <span class="price">76€</span></p>
+                                    <p>Nuit à partir de <span class="price">76</span><span class="devise">€</span></p>
                                     <div class="star-rate">
                                         <i class="fas fa-star blue"></i>
                                         <i class="fas fa-star blue"></i>
@@ -242,7 +245,9 @@
                 <div class="column">
                     <article>
                         <img src="images/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
-                        <h3>Vieux Port</h3>
+                        <div style="display: flex;align-items: center">
+                            <h3>Vieux Port</h3>
+                        </div>
                     </article>
                 </div>
                 <div class="column double">

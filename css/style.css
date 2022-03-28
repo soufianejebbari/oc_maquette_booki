@@ -1,7 +1,7 @@
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
-    font-size: 18px;
+
 
 }
 
@@ -89,14 +89,23 @@ h1 {
     border-radius: 15px 0 0 15px;
 }
 
+.searchbar form {
+    margin-bottom: 0;
+    display: flex;
+}
+
 .searchbar input {
     outline: none;
     height: 52px;
     margin-left: -5px;
     border: none;
     padding: 10px;
+    flex-grow: 1;
 }
 
+.devise {
+    font-weight: 600;
+}
 .searchbar button {
     background-color: #0065FC;
     color: white;
@@ -185,7 +194,7 @@ h1 {
 
 #hebergement section .container {
     background-color: #F2F2F2;
-    padding: 20px 20px 10px 20px;
+    padding: 20px 20px;
     border-radius: 20px;
     box-sizing: content-box;
 }
@@ -208,6 +217,7 @@ h1 {
     height: 100%;
 }
 
+
 .hebergement-list a article:hover {
     box-shadow: 5px 5px 5px 0 #E2E2E2;
 }
@@ -222,7 +232,7 @@ h1 {
 
 .hebergement-list a article img {
     width: 100%;
-    height: 200px;
+    height: 100px;
     border-radius: 25px 25px 0 0;
     object-fit: cover;
 }
@@ -231,18 +241,6 @@ h1 {
     color: black;
     text-decoration: none;
 }
-
-.hebergement-list a article .article-content {
-    padding: 10px 10px 0 10px;
-}
-
-.hebergement-list a article .article-content h3,
-.hebergement-list a article .article-content p {
-    margin: 6px;
-}
-
-
-
 
 #hebergement .marseille {
     width: 60%;
@@ -279,14 +277,16 @@ h1 {
 }
 
 #hebergement .populaire .hebergement-list a article img {
-    border-radius: 25px 0 0 25px;
-    width: 35%;
+    border-radius: 10px 10px;
+    width: 30%;
+    height: 130px;
 }
 
 #hebergement .populaire .hebergement-list a article .article-content {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    margin: 5px 12px;
 }
 
 

@@ -47,8 +47,7 @@
     }
 
     .searchbar {
-        display: flex;
-        width: unset;
+        width:100%
     }
 
     .searchbar input {
