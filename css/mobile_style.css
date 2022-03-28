@@ -12,11 +12,17 @@
         width: 60%;
     }
 
+    header nav {
+        width: 100%;
+    }
+
     header nav ul li {
         padding: 10px 72px;
         border-bottom: 3px solid #F2F2F2;
         margin: 0 0 0 -50px;
         border-top: none;
+        width: 50%
+
     }
 
     header nav ul li.active {
@@ -65,6 +71,7 @@
 
     .searchbar button {
         border-radius: 15px 15px;
+        width:15%;
     }
 
     .searchbar button span {
